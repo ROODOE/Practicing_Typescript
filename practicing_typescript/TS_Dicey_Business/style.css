@@ -1,0 +1,51 @@
+#btn-container {
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    justify-content:space-around;
+    border: 1px solid rgb(26, 26, 26);
+    border-radius: 8px;
+    box-shadow: 10px 8px 10px;
+}
+
+#generate-die {
+    margin: 20px;
+}
+
+#roll {
+    display: inline-flex;
+    margin: 20px;
+}
+
+#sum {
+    margin: 20px;
+    display: inline-flex;
+}
+
+#die-container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    
+    /* display: flex; */
+    margin-bottom: 20px;
+    margin-top: 20px;
+    /* justify-content:space-around; */
+    border: 1px solid rgb(26, 26, 26);
+    border-radius: 8px;
+    box-shadow: 10px 8px 10px;
+}
+
+.addedDie {
+    height: 135px;
+    width: 135px;
+    background-color: blue;
+    margin: 10px;
+    text-align: center;
+    font-size: 110px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+/* .addedDie:active {
+    transform: rotate(360deg);
+} */
